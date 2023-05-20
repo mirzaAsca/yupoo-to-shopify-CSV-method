@@ -2,7 +2,11 @@
 
 ## Overview
 
-The project is designed to scrape various details about products listed on a webpage, perform some basic processing, download and upload product photos to Google Drive, and eventually store the collected data in a local JSON file. A CSV file is also created from the JSON data. The code uses multithreading to scrape multiple pages concurrently.
+This project is specifically engineered to harvest product information from Yupoo Albums, where Chinese merchants showcase their products. It captures pertinent details, performs fundamental data processing, and subsequently saves the data individually or in structured arrays. After downloading and uploading to Google Drive, product photo links are conserved in a locally stored JSON file. Subsequently, a CSV file is generated based on this JSON data.
+
+The data compiled is fully streamlined for Shopify's bulk import procedure using CSV files while simultaneously preserving the requisite structure for CSV bulk import. Various data elements are leveraged as tags for a Shopify store, thereby enhancing the store's maintainability, updates, and filtration processes. The tags associated with each product encompass a price tag, album URL tag, seller tag, and date tag. This tagging system simplifies product sorting, sourcing links for product orders, filtering products by sellers, and enables straightforward tracking, editing, or removal of outdated products.
+
+The scraping procedure employs multithreading to simultaneously extract data from multiple Yupoo pages, thereby enhancing efficiency and speed.
 
 ### Importing Necessary Modules
 
