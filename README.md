@@ -1,4 +1,5 @@
-    [![Everything Is AWESOME](https://i.ibb.co/L1DdQks/Untitled.png)](https://www.youtube.com/watch?v=jWGo6DZl4ng&ab_channel=mirzaasca7 "Everything Is AWESOME")
+[![Everything Is AWESOME](https://i.ibb.co/L1DdQks/Untitled.png)](https://www.youtube.com/watch?v=jWGo6DZl4ng "Everything Is AWESOME")
+
 
 
 
