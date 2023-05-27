@@ -144,7 +144,7 @@ def scrape_page_wrapper(page):
 num_pages_to_scrape = 10
 
 # Create a ThreadPoolExecutor with a number of workers
-with ThreadPoolExecutor(max_workers=4) as executor:
+with ThreadPoolExecutor(max_workers=2) as executor:
     # Submit the scraping tasks to the executor
     futures = [
         executor.submit(scrape_page_wrapper, page)
